@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ifc-AL-tOe">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,24 +14,20 @@
         <scene sceneID="Vsk-1A-mbk">
             <objects>
                 <viewController id="GTn-HP-9UC" customClass="HomeVCViewController" customModule="E_Globes" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2Ho-zX-YM2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="IWs-sz-4i1"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="home.png" largeContentSizeImage="house-black-silhouette-without-door.png" selectedImage="home.png" id="v0d-H0-Xbv"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="v0d-H0-Xbv">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfL-zS-tgW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2306" y="-56"/>
+            <point key="canvasLocation" x="-2307.2463768115945" y="-56.25"/>
         </scene>
         <!--Messeges-->
         <scene sceneID="L4B-UQ-NDI">
             <objects>
                 <viewController id="xSz-UF-pZ6" customClass="MessageViewController" customModule="E_Globes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b8L-vN-TOF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dTV-lF-X7Q"/>
@@ -68,12 +64,12 @@
             <objects>
                 <viewController id="oZC-BE-ZW2" customClass="AddViewController" customModule="E_Globes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d1X-Mt-JS4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="roE-JH-bIc"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="UUu-99-fM8"/>
+                    <tabBarItem key="tabBarItem" title="" image="home.png" id="UUu-99-fM8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OFP-aU-zqY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -84,7 +80,7 @@
             <objects>
                 <viewController id="rqh-Yl-w5I" customClass="FavoriteVC" customModule="E_Globes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5kP-UR-ZQb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cus-Eg-W7V"/>
@@ -100,7 +96,7 @@
             <objects>
                 <viewController id="9uR-KC-oJ8" customClass="ProfileViewController" customModule="E_Globes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6CX-wz-ec1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="UUx-Fa-F0L"/>
@@ -116,7 +112,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="home" width="25" height="25"/>
         <image name="home.png" width="37.5" height="37.5"/>
-        <image name="house-black-silhouette-without-door.png" width="56.25" height="56.25"/>
     </resources>
 </document>
