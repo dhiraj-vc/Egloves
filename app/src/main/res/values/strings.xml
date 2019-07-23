@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Eglobes</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_sell">Sell</string>
+    <string name="title_message">Message</string>
+    <string name="title_profile">Profile</string>
+    <string name="os">Product</string>
+    <string name="corporation">Trending</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
