@@ -7,59 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30A689C34820AE6421F57C2FDF0E58C0 /* Pods-E-Globes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8D24D2C4B2005DFFDDB9A595301C2E /* Pods-E-Globes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4789A361044D5BA704FC794B0C3A8AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		977EF8B6C76681640D3B2B52C40CE37E /* Pods-E-Globes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DF9A8EF281D05607B467310367FC /* Pods-E-Globes-dummy.m */; };
+		03BF58CAFD5550CA2E34BD78B371F2A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		15AAA7906836FAB8902467C7E480C3C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2FF4BBBA8DEA2DE5DA926BD27BC19897 /* Pods-E-Globes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6109503F91F9A4D88F21C0EA65647B1C /* Pods-E-Globes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		349A2B19AB5DF7B7E42D042FBCA52A39 /* GSKStretchyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E452155FDF3B126A513E3C9DAC8FA /* GSKStretchyHeaderView.m */; };
+		38A59C3F6CA85128CBF5454A5B96C74E /* GSKStretchyHeaderView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 711BE9A639E18D2E9D3110EC39883454 /* GSKStretchyHeaderView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B0917F58BE397CE058FA867BA90978 /* GSKStretchyHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F0B094619DB0BB25D7B21D8F1E639B /* GSKStretchyHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9E7C096D7D49178B30C2EC0CE7AA43 /* UIScrollView+GSKStretchyHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 358CABCA3967EDBACCCD033641A461C6 /* UIScrollView+GSKStretchyHeaderView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5F4AE44C6E59F7F8285C8D5B0BD78090 /* GSKGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = DDD206939B377E0560DEE1D2A190F8D9 /* GSKGeometry.c */; };
+		7AFDDCB436E7A453D70D6C6168DF4FD3 /* GSKGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3182F732817CEBC143C722F0ED9EC57A /* GSKGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D7992B017217471A7D0BF92953BE0C6 /* Pods-E-Globes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 359112DABF8E6A06F1A3F55655252022 /* Pods-E-Globes-dummy.m */; };
+		8A1F7ACA3AF79EC285280711502C3379 /* UIView+GSKTransplantSubviews.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B1F4E505896C6E39FBCB0EB80D0C8D /* UIView+GSKTransplantSubviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A18E3A245732E414674C454F8A1D1DFD /* UIScrollView+GSKStretchyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F354D4F6CC99C02B64B56D3EF08F7 /* UIScrollView+GSKStretchyHeaderView.m */; };
+		AAD971E4C63B42E478B48C82C1AF8A87 /* GSKStretchyHeaderView+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A32FB63059A4B8E0235AA69ECEC12E /* GSKStretchyHeaderView+Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D03DEA2D1D48C3B781EDFC9F0B59047B /* GSKStretchyHeaderView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0788C1AF50E71D159074724505B04A /* GSKStretchyHeaderView-dummy.m */; };
+		E8EC2700E91B88C6109BB7FC694D1EB4 /* UIView+GSKTransplantSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 9571B1D04D65A2FC7DD00201F7F3CD2D /* UIView+GSKTransplantSubviews.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C339BACBF51D5A801DDFDA4F2F4D64C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA5648EB99031CC1D0E80C06B95F4F7;
+			remoteInfo = GSKStretchyHeaderView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		2ACD5A7335FE626FF7B2DB6D41FEB149 /* Pods-E-Globes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-E-Globes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D0E452155FDF3B126A513E3C9DAC8FA /* GSKStretchyHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GSKStretchyHeaderView.m; path = GSKStretchyHeaderView/Classes/GSKStretchyHeaderView.m; sourceTree = "<group>"; };
+		2C7F354D4F6CC99C02B64B56D3EF08F7 /* UIScrollView+GSKStretchyHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+GSKStretchyHeaderView.m"; path = "GSKStretchyHeaderView/Classes/Private/UIScrollView+GSKStretchyHeaderView.m"; sourceTree = "<group>"; };
+		3182F732817CEBC143C722F0ED9EC57A /* GSKGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSKGeometry.h; path = GSKStretchyHeaderView/Classes/GSKGeometry.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4D98DF9A8EF281D05607B467310367FC /* Pods-E-Globes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-E-Globes-dummy.m"; sourceTree = "<group>"; };
-		52649B04E62050AA0AEEA5242F782291 /* Pods-E-Globes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-Globes.debug.xcconfig"; sourceTree = "<group>"; };
-		67715E22C4819ECBF3A80201038B01E8 /* Pods-E-Globes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-Globes-acknowledgements.plist"; sourceTree = "<group>"; };
-		6E8D24D2C4B2005DFFDDB9A595301C2E /* Pods-E-Globes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-E-Globes-umbrella.h"; sourceTree = "<group>"; };
+		358CABCA3967EDBACCCD033641A461C6 /* UIScrollView+GSKStretchyHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+GSKStretchyHeaderView.h"; path = "GSKStretchyHeaderView/Classes/Private/UIScrollView+GSKStretchyHeaderView.h"; sourceTree = "<group>"; };
+		359112DABF8E6A06F1A3F55655252022 /* Pods-E-Globes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-E-Globes-dummy.m"; sourceTree = "<group>"; };
+		39A32FB63059A4B8E0235AA69ECEC12E /* GSKStretchyHeaderView+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GSKStretchyHeaderView+Protected.h"; path = "GSKStretchyHeaderView/Classes/Private/GSKStretchyHeaderView+Protected.h"; sourceTree = "<group>"; };
+		4972B18FCC42D0E27BAD1018A8EEDD63 /* Pods-E-Globes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-Globes-Info.plist"; sourceTree = "<group>"; };
+		4A3273608EB3F0B321DF2E22CAF8FC42 /* GSKStretchyHeaderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GSKStretchyHeaderView.modulemap; sourceTree = "<group>"; };
+		4D7265D00FB495E79F123DE3A853C040 /* Pods-E-Globes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-E-Globes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DA56936E493A1F1FA063B835BCC6B34 /* GSKStretchyHeaderView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSKStretchyHeaderView.xcconfig; sourceTree = "<group>"; };
+		5E5D334EC9B001CE91EF9892AB32BE09 /* Pods-E-Globes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-E-Globes.modulemap"; sourceTree = "<group>"; };
+		6109503F91F9A4D88F21C0EA65647B1C /* Pods-E-Globes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-E-Globes-umbrella.h"; sourceTree = "<group>"; };
+		61FDA78B2D7ABE71A30197AF4EF8F5B0 /* Pods-E-Globes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-Globes.release.xcconfig"; sourceTree = "<group>"; };
+		66B1F4E505896C6E39FBCB0EB80D0C8D /* UIView+GSKTransplantSubviews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GSKTransplantSubviews.h"; path = "GSKStretchyHeaderView/Classes/UIView+GSKTransplantSubviews.h"; sourceTree = "<group>"; };
+		711BE9A639E18D2E9D3110EC39883454 /* GSKStretchyHeaderView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSKStretchyHeaderView-umbrella.h"; sourceTree = "<group>"; };
+		720FFB325E99F38B4891ED494BA76D45 /* GSKStretchyHeaderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSKStretchyHeaderView.framework; path = GSKStretchyHeaderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F78E219814E1F725D7429DFAA25C66 /* GSKStretchyHeaderView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSKStretchyHeaderView-prefix.pch"; sourceTree = "<group>"; };
 		731E5CF29B5FD6D0B98D6C5C54BAA270 /* Pods_E_Globes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_E_Globes.framework; path = "Pods-E-Globes.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B1678FC1A754CD75142F0DE657E175C /* Pods-E-Globes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-Globes-Info.plist"; sourceTree = "<group>"; };
+		78F0B094619DB0BB25D7B21D8F1E639B /* GSKStretchyHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSKStretchyHeaderView.h; path = GSKStretchyHeaderView/Classes/GSKStretchyHeaderView.h; sourceTree = "<group>"; };
+		8A8DA24D4F4460FE5AB9E87020007AE9 /* Pods-E-Globes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-Globes.debug.xcconfig"; sourceTree = "<group>"; };
+		8BEADC991878428AC0FC689360ADC83C /* GSKStretchyHeaderView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GSKStretchyHeaderView-Info.plist"; sourceTree = "<group>"; };
+		9571B1D04D65A2FC7DD00201F7F3CD2D /* UIView+GSKTransplantSubviews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+GSKTransplantSubviews.m"; path = "GSKStretchyHeaderView/Classes/UIView+GSKTransplantSubviews.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E423F969AB50A7F0D6BF64BF3EF3AF1C /* Pods-E-Globes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E-Globes.release.xcconfig"; sourceTree = "<group>"; };
-		F4A0FC071FAB60E992A30CA7BEAE6494 /* Pods-E-Globes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-E-Globes.modulemap"; sourceTree = "<group>"; };
+		C3233656F8BAF8FA642CE956F1492376 /* Pods-E-Globes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-E-Globes-frameworks.sh"; sourceTree = "<group>"; };
+		DC0788C1AF50E71D159074724505B04A /* GSKStretchyHeaderView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSKStretchyHeaderView-dummy.m"; sourceTree = "<group>"; };
+		DDD206939B377E0560DEE1D2A190F8D9 /* GSKGeometry.c */ = {isa = PBXFileReference; includeInIndex = 1; name = GSKGeometry.c; path = GSKStretchyHeaderView/Classes/GSKGeometry.c; sourceTree = "<group>"; };
+		E4B4C3C738490020CEDDA05FA725C777 /* Pods-E-Globes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E-Globes-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A7631AECECA374AA19811350E06C228F /* Frameworks */ = {
+		4C01F75CA5CCC77869211E05971E6CD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4789A361044D5BA704FC794B0C3A8AF9 /* Foundation.framework in Frameworks */,
+				15AAA7906836FAB8902467C7E480C3C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A065DFEEC0D4DCAE28EB8552CF4626ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BF58CAFD5550CA2E34BD78B371F2A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3079B3ADE4A1227C876F65D0753EA3F9 /* Products */ = {
+		0436DC8FF21EA77247FBB4381E435A77 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				FFB4716F5F802EAE918417294B71CA65 /* GSKStretchyHeaderView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		256554ADF760D2081C384FEE186F1630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				720FFB325E99F38B4891ED494BA76D45 /* GSKStretchyHeaderView.framework */,
 				731E5CF29B5FD6D0B98D6C5C54BAA270 /* Pods_E_Globes.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41262E8A619A106C43203E63EC48B506 /* Pods-E-Globes */ = {
+		7A780F99391A7F62DA755B9E4DE5DF85 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F4A0FC071FAB60E992A30CA7BEAE6494 /* Pods-E-Globes.modulemap */,
-				2ACD5A7335FE626FF7B2DB6D41FEB149 /* Pods-E-Globes-acknowledgements.markdown */,
-				67715E22C4819ECBF3A80201038B01E8 /* Pods-E-Globes-acknowledgements.plist */,
-				4D98DF9A8EF281D05607B467310367FC /* Pods-E-Globes-dummy.m */,
-				8B1678FC1A754CD75142F0DE657E175C /* Pods-E-Globes-Info.plist */,
-				6E8D24D2C4B2005DFFDDB9A595301C2E /* Pods-E-Globes-umbrella.h */,
-				52649B04E62050AA0AEEA5242F782291 /* Pods-E-Globes.debug.xcconfig */,
-				E423F969AB50A7F0D6BF64BF3EF3AF1C /* Pods-E-Globes.release.xcconfig */,
+				4A3273608EB3F0B321DF2E22CAF8FC42 /* GSKStretchyHeaderView.modulemap */,
+				4DA56936E493A1F1FA063B835BCC6B34 /* GSKStretchyHeaderView.xcconfig */,
+				DC0788C1AF50E71D159074724505B04A /* GSKStretchyHeaderView-dummy.m */,
+				8BEADC991878428AC0FC689360ADC83C /* GSKStretchyHeaderView-Info.plist */,
+				72F78E219814E1F725D7429DFAA25C66 /* GSKStretchyHeaderView-prefix.pch */,
+				711BE9A639E18D2E9D3110EC39883454 /* GSKStretchyHeaderView-umbrella.h */,
 			);
-			name = "Pods-E-Globes";
-			path = "Target Support Files/Pods-E-Globes";
+			name = "Support Files";
+			path = "../Target Support Files/GSKStretchyHeaderView";
+			sourceTree = "<group>";
+		};
+		AE9B0C0FAD561AE5610B2D659FC8B205 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E14C6AB9910E843D036368FA4BDD61FF /* Pods-E-Globes */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -75,8 +137,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3079B3ADE4A1227C876F65D0753EA3F9 /* Products */,
-				F18F13B7BA7A0C3A44C52BB459BD0350 /* Targets Support Files */,
+				0436DC8FF21EA77247FBB4381E435A77 /* Pods */,
+				256554ADF760D2081C384FEE186F1630 /* Products */,
+				AE9B0C0FAD561AE5610B2D659FC8B205 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,40 +151,99 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F18F13B7BA7A0C3A44C52BB459BD0350 /* Targets Support Files */ = {
+		E14C6AB9910E843D036368FA4BDD61FF /* Pods-E-Globes */ = {
 			isa = PBXGroup;
 			children = (
-				41262E8A619A106C43203E63EC48B506 /* Pods-E-Globes */,
+				5E5D334EC9B001CE91EF9892AB32BE09 /* Pods-E-Globes.modulemap */,
+				4D7265D00FB495E79F123DE3A853C040 /* Pods-E-Globes-acknowledgements.markdown */,
+				E4B4C3C738490020CEDDA05FA725C777 /* Pods-E-Globes-acknowledgements.plist */,
+				359112DABF8E6A06F1A3F55655252022 /* Pods-E-Globes-dummy.m */,
+				C3233656F8BAF8FA642CE956F1492376 /* Pods-E-Globes-frameworks.sh */,
+				4972B18FCC42D0E27BAD1018A8EEDD63 /* Pods-E-Globes-Info.plist */,
+				6109503F91F9A4D88F21C0EA65647B1C /* Pods-E-Globes-umbrella.h */,
+				8A8DA24D4F4460FE5AB9E87020007AE9 /* Pods-E-Globes.debug.xcconfig */,
+				61FDA78B2D7ABE71A30197AF4EF8F5B0 /* Pods-E-Globes.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-E-Globes";
+			path = "Target Support Files/Pods-E-Globes";
+			sourceTree = "<group>";
+		};
+		FFB4716F5F802EAE918417294B71CA65 /* GSKStretchyHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				DDD206939B377E0560DEE1D2A190F8D9 /* GSKGeometry.c */,
+				3182F732817CEBC143C722F0ED9EC57A /* GSKGeometry.h */,
+				78F0B094619DB0BB25D7B21D8F1E639B /* GSKStretchyHeaderView.h */,
+				0D0E452155FDF3B126A513E3C9DAC8FA /* GSKStretchyHeaderView.m */,
+				39A32FB63059A4B8E0235AA69ECEC12E /* GSKStretchyHeaderView+Protected.h */,
+				358CABCA3967EDBACCCD033641A461C6 /* UIScrollView+GSKStretchyHeaderView.h */,
+				2C7F354D4F6CC99C02B64B56D3EF08F7 /* UIScrollView+GSKStretchyHeaderView.m */,
+				66B1F4E505896C6E39FBCB0EB80D0C8D /* UIView+GSKTransplantSubviews.h */,
+				9571B1D04D65A2FC7DD00201F7F3CD2D /* UIView+GSKTransplantSubviews.m */,
+				7A780F99391A7F62DA755B9E4DE5DF85 /* Support Files */,
+			);
+			name = GSKStretchyHeaderView;
+			path = GSKStretchyHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7062083F5439339B771AB271C3ADF32C /* Headers */ = {
+		41177677634C861E10E5DF21DE0545D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A689C34820AE6421F57C2FDF0E58C0 /* Pods-E-Globes-umbrella.h in Headers */,
+				7AFDDCB436E7A453D70D6C6168DF4FD3 /* GSKGeometry.h in Headers */,
+				AAD971E4C63B42E478B48C82C1AF8A87 /* GSKStretchyHeaderView+Protected.h in Headers */,
+				38A59C3F6CA85128CBF5454A5B96C74E /* GSKStretchyHeaderView-umbrella.h in Headers */,
+				42B0917F58BE397CE058FA867BA90978 /* GSKStretchyHeaderView.h in Headers */,
+				4D9E7C096D7D49178B30C2EC0CE7AA43 /* UIScrollView+GSKStretchyHeaderView.h in Headers */,
+				8A1F7ACA3AF79EC285280711502C3379 /* UIView+GSKTransplantSubviews.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680D0BF242421688D55D623C7B562645 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF4BBBA8DEA2DE5DA926BD27BC19897 /* Pods-E-Globes-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B35E4E3C632CE43B4D43934FDEEB6102 /* Pods-E-Globes */ = {
+		ACA5648EB99031CC1D0E80C06B95F4F7 /* GSKStretchyHeaderView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5431BC67B94EDA0C335950F0E753AFE4 /* Build configuration list for PBXNativeTarget "Pods-E-Globes" */;
+			buildConfigurationList = 5CEEBC5E9A2EB7C668EF48428BC7E6E8 /* Build configuration list for PBXNativeTarget "GSKStretchyHeaderView" */;
 			buildPhases = (
-				7062083F5439339B771AB271C3ADF32C /* Headers */,
-				13ECA9D8D959963DD379B46CD68CFEAF /* Sources */,
-				A7631AECECA374AA19811350E06C228F /* Frameworks */,
-				62CB0AB4834F35AE0C1F6079D1E64889 /* Resources */,
+				41177677634C861E10E5DF21DE0545D9 /* Headers */,
+				2BC0556287EF8B70BE8A79CAD35EB66C /* Sources */,
+				4C01F75CA5CCC77869211E05971E6CD2 /* Frameworks */,
+				F5F8DEC7BF71230E972DD4749FC17164 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = GSKStretchyHeaderView;
+			productName = GSKStretchyHeaderView;
+			productReference = 720FFB325E99F38B4891ED494BA76D45 /* GSKStretchyHeaderView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B35E4E3C632CE43B4D43934FDEEB6102 /* Pods-E-Globes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5399BD2A1BF907A6A73B7D0038B396CB /* Build configuration list for PBXNativeTarget "Pods-E-Globes" */;
+			buildPhases = (
+				680D0BF242421688D55D623C7B562645 /* Headers */,
+				35C71F1D68D236FB6B0183D24D6E5A61 /* Sources */,
+				A065DFEEC0D4DCAE28EB8552CF4626ED /* Frameworks */,
+				80881FBBE94A0BF4D1C13FF45682E3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1740A000AEC524F46E6ABE23D6184C /* PBXTargetDependency */,
 			);
 			name = "Pods-E-Globes";
 			productName = "Pods-E-Globes";
@@ -145,17 +267,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3079B3ADE4A1227C876F65D0753EA3F9 /* Products */;
+			productRefGroup = 256554ADF760D2081C384FEE186F1630 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				ACA5648EB99031CC1D0E80C06B95F4F7 /* GSKStretchyHeaderView */,
 				B35E4E3C632CE43B4D43934FDEEB6102 /* Pods-E-Globes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		62CB0AB4834F35AE0C1F6079D1E64889 /* Resources */ = {
+		80881FBBE94A0BF4D1C13FF45682E3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F8DEC7BF71230E972DD4749FC17164 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,17 +295,74 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13ECA9D8D959963DD379B46CD68CFEAF /* Sources */ = {
+		2BC0556287EF8B70BE8A79CAD35EB66C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				977EF8B6C76681640D3B2B52C40CE37E /* Pods-E-Globes-dummy.m in Sources */,
+				5F4AE44C6E59F7F8285C8D5B0BD78090 /* GSKGeometry.c in Sources */,
+				D03DEA2D1D48C3B781EDFC9F0B59047B /* GSKStretchyHeaderView-dummy.m in Sources */,
+				349A2B19AB5DF7B7E42D042FBCA52A39 /* GSKStretchyHeaderView.m in Sources */,
+				A18E3A245732E414674C454F8A1D1DFD /* UIScrollView+GSKStretchyHeaderView.m in Sources */,
+				E8EC2700E91B88C6109BB7FC694D1EB4 /* UIView+GSKTransplantSubviews.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C71F1D68D236FB6B0183D24D6E5A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7992B017217471A7D0BF92953BE0C6 /* Pods-E-Globes-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AD1740A000AEC524F46E6ABE23D6184C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSKStretchyHeaderView;
+			target = ACA5648EB99031CC1D0E80C06B95F4F7 /* GSKStretchyHeaderView */;
+			targetProxy = C339BACBF51D5A801DDFDA4F2F4D64C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1F698260B8ED7EDAEBA86F481003EE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA56936E493A1F1FA063B835BCC6B34 /* GSKStretchyHeaderView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GSKStretchyHeaderView/GSKStretchyHeaderView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSKStretchyHeaderView/GSKStretchyHeaderView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GSKStretchyHeaderView/GSKStretchyHeaderView.modulemap";
+				PRODUCT_MODULE_NAME = GSKStretchyHeaderView;
+				PRODUCT_NAME = GSKStretchyHeaderView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -240,6 +427,45 @@
 			};
 			name = Debug;
 		};
+		2900771D988C3F2A43EB28309558FBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61FDA78B2D7ABE71A30197AF4EF8F5B0 /* Pods-E-Globes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-E-Globes/Pods-E-Globes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-E-Globes/Pods-E-Globes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -300,9 +526,9 @@
 			};
 			name = Release;
 		};
-		59851959ECF80BA643D278E3A2C7E370 /* Debug */ = {
+		6EA4E6B30D414481B5EAC6C3FB3AC089 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52649B04E62050AA0AEEA5242F782291 /* Pods-E-Globes.debug.xcconfig */;
+			baseConfigurationReference = 8A8DA24D4F4460FE5AB9E87020007AE9 /* Pods-E-Globes.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -338,12 +564,10 @@
 			};
 			name = Debug;
 		};
-		8BA82ACFD75A05271660CBFAA62D126E /* Release */ = {
+		9486AD38C671EA3918DD703291A8B4F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E423F969AB50A7F0D6BF64BF3EF3AF1C /* Pods-E-Globes.release.xcconfig */;
+			baseConfigurationReference = 4DA56936E493A1F1FA063B835BCC6B34 /* GSKStretchyHeaderView.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -353,29 +577,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-E-Globes/Pods-E-Globes-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GSKStretchyHeaderView/GSKStretchyHeaderView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSKStretchyHeaderView/GSKStretchyHeaderView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-E-Globes/Pods-E-Globes.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GSKStretchyHeaderView/GSKStretchyHeaderView.modulemap";
+				PRODUCT_MODULE_NAME = GSKStretchyHeaderView;
+				PRODUCT_NAME = GSKStretchyHeaderView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -389,11 +611,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5431BC67B94EDA0C335950F0E753AFE4 /* Build configuration list for PBXNativeTarget "Pods-E-Globes" */ = {
+		5399BD2A1BF907A6A73B7D0038B396CB /* Build configuration list for PBXNativeTarget "Pods-E-Globes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59851959ECF80BA643D278E3A2C7E370 /* Debug */,
-				8BA82ACFD75A05271660CBFAA62D126E /* Release */,
+				6EA4E6B30D414481B5EAC6C3FB3AC089 /* Debug */,
+				2900771D988C3F2A43EB28309558FBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEEBC5E9A2EB7C668EF48428BC7E6E8 /* Build configuration list for PBXNativeTarget "GSKStretchyHeaderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9486AD38C671EA3918DD703291A8B4F4 /* Debug */,
+				1F698260B8ED7EDAEBA86F481003EE9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

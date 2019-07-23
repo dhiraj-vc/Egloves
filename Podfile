@@ -7,4 +7,6 @@ target 'E-Globes' do
 
   # Pods for E-Globes
 
+	pod "GSKStretchyHeaderView"
+
 end

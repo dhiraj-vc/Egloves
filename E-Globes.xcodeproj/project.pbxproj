@@ -112,6 +112,7 @@
 				CB24564A22E5F23E001E5235 /* Sources */,
 				CB24564B22E5F23E001E5235 /* Frameworks */,
 				CB24564C22E5F23E001E5235 /* Resources */,
+				6158D789CD878B7E2E52643A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +170,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6158D789CD878B7E2E52643A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Globes/Pods-E-Globes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Globes/Pods-E-Globes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-Globes/Pods-E-Globes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C431222BFDF30D053E68553D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
