@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                                 toolbar.setTitle("Profile");
                                 break;
                             case R.id.navigation_home:
-                                toolbar.setTitle("Home");
+                                toolbar.setTitle("Search");
                             default:
                                 fragment = homeFragment;
                                 break;
