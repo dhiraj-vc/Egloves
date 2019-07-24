@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,11 +12,13 @@
 		CB24565722E5F23E001E5235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB24565522E5F23E001E5235 /* Main.storyboard */; };
 		CB24565922E5F240001E5235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB24565822E5F240001E5235 /* Assets.xcassets */; };
 		CB24565C22E5F241001E5235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB24565A22E5F241001E5235 /* LaunchScreen.storyboard */; };
-		CB24568422E601E4001E5235 /* HomeVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24568322E601E4001E5235 /* HomeVCViewController.swift */; };
-		CB24568622E601FC001E5235 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24568522E601FC001E5235 /* FavoriteVC.swift */; };
-		CB24568822E60213001E5235 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24568722E60213001E5235 /* AddViewController.swift */; };
-		CB24568A22E60231001E5235 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24568922E60231001E5235 /* MessageViewController.swift */; };
-		CB24568C22E60246001E5235 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24568B22E60246001E5235 /* ProfileViewController.swift */; };
+		CB24569622E87089001E5235 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569122E87089001E5235 /* AddViewController.swift */; };
+		CB24569722E87089001E5235 /* HomeVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569222E87089001E5235 /* HomeVCViewController.swift */; };
+		CB24569822E87089001E5235 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569322E87089001E5235 /* FavoriteVC.swift */; };
+		CB24569922E87089001E5235 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569422E87089001E5235 /* MessageViewController.swift */; };
+		CB24569A22E87089001E5235 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569522E87089001E5235 /* ProfileViewController.swift */; };
+		CB24569C22E870CA001E5235 /* HomeHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569B22E870CA001E5235 /* HomeHeaderTVC.swift */; };
+		CB24569E22E870F4001E5235 /* HomeTrendTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569D22E870F4001E5235 /* HomeTrendTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +31,13 @@
 		CB24565822E5F240001E5235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB24565B22E5F241001E5235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB24565D22E5F241001E5235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB24568322E601E4001E5235 /* HomeVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCViewController.swift; sourceTree = "<group>"; };
-		CB24568522E601FC001E5235 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
-		CB24568722E60213001E5235 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		CB24568922E60231001E5235 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
-		CB24568B22E60246001E5235 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CB24569122E87089001E5235 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CB24569222E87089001E5235 /* HomeVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVCViewController.swift; sourceTree = "<group>"; };
+		CB24569322E87089001E5235 /* FavoriteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		CB24569422E87089001E5235 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		CB24569522E87089001E5235 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CB24569B22E870CA001E5235 /* HomeHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderTVC.swift; sourceTree = "<group>"; };
+		CB24569D22E870F4001E5235 /* HomeTrendTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTrendTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,6 @@
 				1B5A55F8AC43BC049CE786E4 /* Pods-E-Globes.debug.xcconfig */,
 				AD0B6534287B238F38EE2637 /* Pods-E-Globes.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,18 +90,36 @@
 		CB24565022E5F23E001E5235 /* E-Globes */ = {
 			isa = PBXGroup;
 			children = (
+				CB24568F22E8705D001E5235 /* Cell */,
+				CB24569022E87089001E5235 /* Controller */,
 				CB24565122E5F23E001E5235 /* AppDelegate.swift */,
-				CB24568322E601E4001E5235 /* HomeVCViewController.swift */,
-				CB24568522E601FC001E5235 /* FavoriteVC.swift */,
-				CB24568722E60213001E5235 /* AddViewController.swift */,
-				CB24568922E60231001E5235 /* MessageViewController.swift */,
-				CB24568B22E60246001E5235 /* ProfileViewController.swift */,
 				CB24565522E5F23E001E5235 /* Main.storyboard */,
 				CB24565822E5F240001E5235 /* Assets.xcassets */,
 				CB24565A22E5F241001E5235 /* LaunchScreen.storyboard */,
 				CB24565D22E5F241001E5235 /* Info.plist */,
 			);
 			path = "E-Globes";
+			sourceTree = "<group>";
+		};
+		CB24568F22E8705D001E5235 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CB24569B22E870CA001E5235 /* HomeHeaderTVC.swift */,
+				CB24569D22E870F4001E5235 /* HomeTrendTVC.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CB24569022E87089001E5235 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB24569122E87089001E5235 /* AddViewController.swift */,
+				CB24569222E87089001E5235 /* HomeVCViewController.swift */,
+				CB24569322E87089001E5235 /* FavoriteVC.swift */,
+				CB24569422E87089001E5235 /* MessageViewController.swift */,
+				CB24569522E87089001E5235 /* ProfileViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,12 +237,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB24568C22E60246001E5235 /* ProfileViewController.swift in Sources */,
-				CB24568422E601E4001E5235 /* HomeVCViewController.swift in Sources */,
-				CB24568622E601FC001E5235 /* FavoriteVC.swift in Sources */,
-				CB24568822E60213001E5235 /* AddViewController.swift in Sources */,
+				CB24569E22E870F4001E5235 /* HomeTrendTVC.swift in Sources */,
+				CB24569822E87089001E5235 /* FavoriteVC.swift in Sources */,
+				CB24569622E87089001E5235 /* AddViewController.swift in Sources */,
+				CB24569922E87089001E5235 /* MessageViewController.swift in Sources */,
+				CB24569A22E87089001E5235 /* ProfileViewController.swift in Sources */,
+				CB24569C22E870CA001E5235 /* HomeHeaderTVC.swift in Sources */,
 				CB24565222E5F23E001E5235 /* AppDelegate.swift in Sources */,
-				CB24568A22E60231001E5235 /* MessageViewController.swift in Sources */,
+				CB24569722E87089001E5235 /* HomeVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

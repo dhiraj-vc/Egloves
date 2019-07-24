@@ -1,5 +1,5 @@
 //
-//  HomeVCViewController.swift
+//  AddViewController.swift
 //  E-Globes
 //
 //  Created by God on 22/07/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeVCViewController: UIViewController {
+class AddViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
