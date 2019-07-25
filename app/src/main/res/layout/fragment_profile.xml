@@ -84,7 +84,7 @@
             android:background="#ffffff"/>
 
         <TextView
-            android:id="@+id/sign_up_tv"
+            android:id="@+id/signUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Don't have an account? Sign up"

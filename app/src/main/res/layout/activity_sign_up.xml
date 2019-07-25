@@ -5,10 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:paddingLeft="18dp"
     android:paddingRight="18dp"
-    >
+    tools:context=".profile.SignUp">
+
 
     <ImageView
         android:id="@+id/imgBack"
@@ -16,7 +17,7 @@
         android:layout_height="35dp"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
-        android:src="@drawable/ic_arrow_back" />
+        android:src="@drawable/left" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -30,15 +31,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category*"
-                android:layout_marginTop="50dp"
+                android:text="E-mail*"
+                android:layout_marginTop="70dp"
                 android:textColor="#9C9999"
                 android:textSize="20sp"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Choose category"
+                android:hint="Enter an e-mail"
                 android:inputType="text"
                 android:textSize="15sp"
                 android:textColorHint="#9C9999"
@@ -55,7 +56,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title*"
+                android:text="Password*"
                 android:layout_marginTop="18dp"
                 android:textColor="#9C9999"
                 android:textSize="20sp"/>
@@ -63,7 +64,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Title (minimum 10 symbols)"
+                android:hint="Enter a password"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColorHint="#9C9999"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#9C9999"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Never disclose your E-globes password to anyone"
+                android:textSize="12sp"
+                android:layout_marginTop="3dp"
+                android:textColor="#9C9999"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Name*"
+                android:layout_marginTop="18dp"
+                android:textColor="#9C9999"
+                android:textSize="20sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter a first name"
                 android:inputType="text"
                 android:textSize="15sp"
                 android:textColorHint="#9C9999"
@@ -76,11 +108,10 @@
                 android:layout_marginTop="5dp"/>
 
 
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Region*"
+                android:text="Last Name*"
                 android:layout_marginTop="18dp"
                 android:textColor="#9C9999"
                 android:textSize="20sp"/>
@@ -88,7 +119,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Choose region"
+                android:hint="Enter a last name"
                 android:inputType="text"
                 android:textSize="15sp"
                 android:textColorHint="#9C9999"
@@ -104,7 +135,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Description*"
+                android:text="Phone*"
                 android:layout_marginTop="18dp"
                 android:textColor="#9C9999"
                 android:textSize="20sp"/>
@@ -112,31 +143,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Description (minimum 8 words)"
-                android:inputType="text"
-                android:textSize="15sp"
-                android:textColorHint="#9C9999"
-                android:layout_marginTop="10dp"
-                android:background="@android:color/transparent" />
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#9C9999"
-                android:layout_marginTop="40dp"/>
-
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Price*"
-                android:layout_marginTop="18dp"
-                android:textColor="#9C9999"
-                android:textSize="20sp"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Choose price"
+                android:hint="Enter a phone"
                 android:inputType="text"
                 android:textSize="15sp"
                 android:textColorHint="#9C9999"
@@ -150,49 +157,22 @@
                 android:layout_height="1dp"
                 android:background="#9C9999"/>
 
-            <android.support.v7.widget.CardView
-                xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/card_view"
-                android:layout_marginTop="15dp"
-                android:layout_width="120dp"
-                android:layout_height="125dp"
-                card_view:cardCornerRadius="4dp">
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="121dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="64dp"
-                        android:layout_height="64dp"
-                        android:background="@drawable/camera"
-                        android:padding="10dp" />
-
-                </LinearLayout>
-
-            </android.support.v7.widget.CardView>
-
             <Button
                 android:id="@+id/registration_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="50dp"
                 android:background="@drawable/background_login_btn"
                 android:clickable="true"
                 android:padding="16dp"
                 android:text="Register"
                 android:textAllCaps="false"
-                android:textColor="#ffffff" />
+                android:textColor="#9C9999" />
+
         </LinearLayout>
 
 
 
     </ScrollView>
-
-
-
 
 </RelativeLayout>
