@@ -28,29 +28,58 @@ class HomeVCViewController: UIViewController,UITableViewDelegate, UITableViewDat
     }
     
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 {
+     
+        if section == 0{
             return 1
+        }else if section == 1{
+                return 8
+        }else{
+        return 0
         }
-        if section == 2 {
-            return 14
-        }
-        
-        
     }
     
      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+    
+        if indexPath.section == 0{
+            let cell = tableViewz.dequeueReusableCell(withIdentifier: "headerCell", for: indexPath)
+            
+            
+            return cell
+        }else if indexPath.section == 1{
+            let cell = tableViewz.dequeueReusableCell(withIdentifier: "TrendCell", for: indexPath)
+            
+            
+            return cell
+        }else{
+            let cell = tableViewz.dequeueReusableCell(withIdentifier: "TrendCell", for: indexPath)
+            
+            
+            return cell
+        }
       
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TrendCell", for: indexPath)
+       
         
-        return cell
         
     }
     
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TrendCell", for: IndexPath)
-        
-        return cell
+//    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+//        let cell = tableViewz.dequeueReusableCell(withIdentifier: "headerCell") as? HomeHeaderTVC
+//
+//        return cell
+//    }
+//
+//    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+//        return 922
+//    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if indexPath.section == 0 {
+            return 922
+        }else if indexPath.section == 1{
+            return 175
+        }else{
+            return 0
+        }
     }
     
 

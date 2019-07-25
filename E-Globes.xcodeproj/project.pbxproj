@@ -19,6 +19,26 @@
 		CB24569A22E87089001E5235 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569522E87089001E5235 /* ProfileViewController.swift */; };
 		CB24569C22E870CA001E5235 /* HomeHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569B22E870CA001E5235 /* HomeHeaderTVC.swift */; };
 		CB24569E22E870F4001E5235 /* HomeTrendTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569D22E870F4001E5235 /* HomeTrendTVC.swift */; };
+		CB2456A022E9D37A001E5235 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24569F22E9D37A001E5235 /* SignInVC.swift */; };
+		CB2456B922E9FAC3001E5235 /* taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456A322E9FAC2001E5235 /* taxi.png */; };
+		CB2456BA22E9FAC3001E5235 /* television.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456A422E9FAC2001E5235 /* television.png */; };
+		CB2456BB22E9FAC3001E5235 /* tools.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456A522E9FAC2001E5235 /* tools.png */; };
+		CB2456BC22E9FAC3001E5235 /* bed.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456A622E9FAC2001E5235 /* bed.png */; };
+		CB2456BD22E9FAC3001E5235 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456A722E9FAC2001E5235 /* hand.png */; };
+		CB2456BE22E9FAC3001E5235 /* resume.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456A822E9FAC2001E5235 /* resume.png */; };
+		CB2456BF22E9FAC3001E5235 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2456A922E9FAC2001E5235 /* splash.jpg */; };
+		CB2456C122E9FAC3001E5235 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456AB22E9FAC2001E5235 /* apple.png */; };
+		CB2456C222E9FAC3001E5235 /* mansion.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456AC22E9FAC2001E5235 /* mansion.png */; };
+		CB2456C422E9FAC3001E5235 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456AE22E9FAC2001E5235 /* cat.png */; };
+		CB2456C522E9FAC3001E5235 /* portfolio.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456AF22E9FAC2001E5235 /* portfolio.png */; };
+		CB2456C622E9FAC3001E5235 /* cosmetics.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456B022E9FAC2001E5235 /* cosmetics.png */; };
+		CB2456C722E9FAC3001E5235 /* knife.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456B122E9FAC2001E5235 /* knife.png */; };
+		CB2456C822E9FAC3001E5235 /* objective.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456B222E9FAC2001E5235 /* objective.png */; };
+		CB2456C922E9FAC3001E5235 /* responsive.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456B322E9FAC2001E5235 /* responsive.png */; };
+		CB2456CA22E9FAC3001E5235 /* trending.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456B422E9FAC2001E5235 /* trending.png */; };
+		CB2456CB22E9FAC3001E5235 /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456B522E9FAC2001E5235 /* baby.png */; };
+		CB2456CC22E9FAC3001E5235 /* dress.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456B622E9FAC2001E5235 /* dress.png */; };
+		CB2456CD22E9FAC3001E5235 /* eglobe.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2456B722E9FAC2001E5235 /* eglobe.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +58,26 @@
 		CB24569522E87089001E5235 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CB24569B22E870CA001E5235 /* HomeHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderTVC.swift; sourceTree = "<group>"; };
 		CB24569D22E870F4001E5235 /* HomeTrendTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTrendTVC.swift; sourceTree = "<group>"; };
+		CB24569F22E9D37A001E5235 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		CB2456A322E9FAC2001E5235 /* taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taxi.png; sourceTree = "<group>"; };
+		CB2456A422E9FAC2001E5235 /* television.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = television.png; sourceTree = "<group>"; };
+		CB2456A522E9FAC2001E5235 /* tools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tools.png; sourceTree = "<group>"; };
+		CB2456A622E9FAC2001E5235 /* bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bed.png; sourceTree = "<group>"; };
+		CB2456A722E9FAC2001E5235 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		CB2456A822E9FAC2001E5235 /* resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume.png; sourceTree = "<group>"; };
+		CB2456A922E9FAC2001E5235 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		CB2456AB22E9FAC2001E5235 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		CB2456AC22E9FAC2001E5235 /* mansion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mansion.png; sourceTree = "<group>"; };
+		CB2456AE22E9FAC2001E5235 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		CB2456AF22E9FAC2001E5235 /* portfolio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfolio.png; sourceTree = "<group>"; };
+		CB2456B022E9FAC2001E5235 /* cosmetics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cosmetics.png; sourceTree = "<group>"; };
+		CB2456B122E9FAC2001E5235 /* knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knife.png; sourceTree = "<group>"; };
+		CB2456B222E9FAC2001E5235 /* objective.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = objective.png; sourceTree = "<group>"; };
+		CB2456B322E9FAC2001E5235 /* responsive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = responsive.png; sourceTree = "<group>"; };
+		CB2456B422E9FAC2001E5235 /* trending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trending.png; sourceTree = "<group>"; };
+		CB2456B522E9FAC2001E5235 /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
+		CB2456B622E9FAC2001E5235 /* dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress.png; sourceTree = "<group>"; };
+		CB2456B722E9FAC2001E5235 /* eglobe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eglobe.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +134,7 @@
 				CB24569022E87089001E5235 /* Controller */,
 				CB24565122E5F23E001E5235 /* AppDelegate.swift */,
 				CB24565522E5F23E001E5235 /* Main.storyboard */,
+				CB2456A122E9FAC2001E5235 /* Icons */,
 				CB24565822E5F240001E5235 /* Assets.xcassets */,
 				CB24565A22E5F241001E5235 /* LaunchScreen.storyboard */,
 				CB24565D22E5F241001E5235 /* Info.plist */,
@@ -118,8 +159,35 @@
 				CB24569322E87089001E5235 /* FavoriteVC.swift */,
 				CB24569422E87089001E5235 /* MessageViewController.swift */,
 				CB24569522E87089001E5235 /* ProfileViewController.swift */,
+				CB24569F22E9D37A001E5235 /* SignInVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB2456A122E9FAC2001E5235 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				CB2456A322E9FAC2001E5235 /* taxi.png */,
+				CB2456A422E9FAC2001E5235 /* television.png */,
+				CB2456A522E9FAC2001E5235 /* tools.png */,
+				CB2456A622E9FAC2001E5235 /* bed.png */,
+				CB2456A722E9FAC2001E5235 /* hand.png */,
+				CB2456A822E9FAC2001E5235 /* resume.png */,
+				CB2456A922E9FAC2001E5235 /* splash.jpg */,
+				CB2456AB22E9FAC2001E5235 /* apple.png */,
+				CB2456AC22E9FAC2001E5235 /* mansion.png */,
+				CB2456AE22E9FAC2001E5235 /* cat.png */,
+				CB2456AF22E9FAC2001E5235 /* portfolio.png */,
+				CB2456B022E9FAC2001E5235 /* cosmetics.png */,
+				CB2456B122E9FAC2001E5235 /* knife.png */,
+				CB2456B222E9FAC2001E5235 /* objective.png */,
+				CB2456B322E9FAC2001E5235 /* responsive.png */,
+				CB2456B422E9FAC2001E5235 /* trending.png */,
+				CB2456B522E9FAC2001E5235 /* baby.png */,
+				CB2456B622E9FAC2001E5235 /* dress.png */,
+				CB2456B722E9FAC2001E5235 /* eglobe.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +251,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB24565C22E5F241001E5235 /* LaunchScreen.storyboard in Resources */,
+				CB2456CB22E9FAC3001E5235 /* baby.png in Resources */,
+				CB2456BB22E9FAC3001E5235 /* tools.png in Resources */,
+				CB2456C522E9FAC3001E5235 /* portfolio.png in Resources */,
+				CB2456C422E9FAC3001E5235 /* cat.png in Resources */,
+				CB2456CA22E9FAC3001E5235 /* trending.png in Resources */,
+				CB2456BD22E9FAC3001E5235 /* hand.png in Resources */,
+				CB2456B922E9FAC3001E5235 /* taxi.png in Resources */,
+				CB2456C922E9FAC3001E5235 /* responsive.png in Resources */,
+				CB2456C822E9FAC3001E5235 /* objective.png in Resources */,
+				CB2456C722E9FAC3001E5235 /* knife.png in Resources */,
+				CB2456BE22E9FAC3001E5235 /* resume.png in Resources */,
+				CB2456CC22E9FAC3001E5235 /* dress.png in Resources */,
+				CB2456BA22E9FAC3001E5235 /* television.png in Resources */,
+				CB2456BC22E9FAC3001E5235 /* bed.png in Resources */,
+				CB2456C622E9FAC3001E5235 /* cosmetics.png in Resources */,
+				CB2456C222E9FAC3001E5235 /* mansion.png in Resources */,
+				CB2456CD22E9FAC3001E5235 /* eglobe.png in Resources */,
+				CB2456BF22E9FAC3001E5235 /* splash.jpg in Resources */,
 				CB24565922E5F240001E5235 /* Assets.xcassets in Resources */,
+				CB2456C122E9FAC3001E5235 /* apple.png in Resources */,
 				CB24565722E5F23E001E5235 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +326,7 @@
 			files = (
 				CB24569E22E870F4001E5235 /* HomeTrendTVC.swift in Sources */,
 				CB24569822E87089001E5235 /* FavoriteVC.swift in Sources */,
+				CB2456A022E9D37A001E5235 /* SignInVC.swift in Sources */,
 				CB24569622E87089001E5235 /* AddViewController.swift in Sources */,
 				CB24569922E87089001E5235 /* MessageViewController.swift in Sources */,
 				CB24569A22E87089001E5235 /* ProfileViewController.swift in Sources */,
