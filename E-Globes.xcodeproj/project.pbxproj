@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C21F53F807840F5937233B0 /* Pods_E_Globes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615F8E546786A086053F3838 /* Pods_E_Globes.framework */; };
+		CB1D87D522EB4A7F00280E1D /* CollectionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D87D422EB4A7F00280E1D /* CollectionDetailVC.swift */; };
 		CB24565222E5F23E001E5235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24565122E5F23E001E5235 /* AppDelegate.swift */; };
 		CB24565722E5F23E001E5235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB24565522E5F23E001E5235 /* Main.storyboard */; };
 		CB24565922E5F240001E5235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB24565822E5F240001E5235 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		1B5A55F8AC43BC049CE786E4 /* Pods-E-Globes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Globes.debug.xcconfig"; path = "Target Support Files/Pods-E-Globes/Pods-E-Globes.debug.xcconfig"; sourceTree = "<group>"; };
 		615F8E546786A086053F3838 /* Pods_E_Globes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_Globes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B6534287B238F38EE2637 /* Pods-E-Globes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Globes.release.xcconfig"; path = "Target Support Files/Pods-E-Globes/Pods-E-Globes.release.xcconfig"; sourceTree = "<group>"; };
+		CB1D87D422EB4A7F00280E1D /* CollectionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailVC.swift; sourceTree = "<group>"; };
 		CB24564E22E5F23E001E5235 /* E-Globes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Globes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB24565122E5F23E001E5235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB24565622E5F23E001E5235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				CB24569422E87089001E5235 /* MessageViewController.swift */,
 				CB24569522E87089001E5235 /* ProfileViewController.swift */,
 				CB24569F22E9D37A001E5235 /* SignInVC.swift */,
+				CB1D87D422EB4A7F00280E1D /* CollectionDetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				CB24569E22E870F4001E5235 /* HomeTrendTVC.swift in Sources */,
 				CB24569822E87089001E5235 /* FavoriteVC.swift in Sources */,
 				CB2456A022E9D37A001E5235 /* SignInVC.swift in Sources */,
+				CB1D87D522EB4A7F00280E1D /* CollectionDetailVC.swift in Sources */,
 				CB24569622E87089001E5235 /* AddViewController.swift in Sources */,
 				CB24569922E87089001E5235 /* MessageViewController.swift in Sources */,
 				CB24569A22E87089001E5235 /* ProfileViewController.swift in Sources */,
