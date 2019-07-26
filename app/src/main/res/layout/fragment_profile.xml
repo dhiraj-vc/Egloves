@@ -21,29 +21,25 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="50dp"/>
 
-       <!-- <com.google.android.gms.common.SignInButton
+        <com.google.android.gms.common.SignInButton
             android:id="@+id/sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="40dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="220dp"/>
--->
+            />
 
-        <!--com.facebook.login.widget.LoginButton
+       <!-- <com.facebook.login.widget.LoginButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            android:text="Sign in"
             android:textColor="#5C5959"
-            android:paddingTop="15dp"
-            android:background="#ffffff"
+
             />-->
 
-        <Button
+       <!-- <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/signGoogle"
@@ -55,8 +51,8 @@
             android:text="Sign in with Google"
             android:textColor="#5C5959"
             android:paddingTop="15dp"
-            android:background="#ffffff"/>
-        <Button
+            android:background="#ffffff"/>-->
+        <!--<Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/signFacebook"
@@ -68,7 +64,7 @@
             android:text="Sign in with Facebook"
             android:textColor="#5C5959"
             android:paddingTop="15dp"
-            android:background="#ffffff"/>
+            android:background="#ffffff"/>-->
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

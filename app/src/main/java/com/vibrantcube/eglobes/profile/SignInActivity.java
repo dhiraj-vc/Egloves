@@ -1,7 +1,9 @@
 package com.vibrantcube.eglobes.profile;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -11,11 +13,15 @@ import com.vibrantcube.eglobes.R;
 public class SignInActivity extends AppCompatActivity {
 
     TextView forgot_password_tv;
+    private ActionBar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
+        toolbar = getSupportActionBar();
+        toolbar.setTitle("Sign In");
+
 
 
         findViewById(R.id.imgBack).setOnClickListener(new View.OnClickListener() {

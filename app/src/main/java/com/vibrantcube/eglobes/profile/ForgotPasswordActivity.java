@@ -1,18 +1,23 @@
 package com.vibrantcube.eglobes.profile;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
 import com.vibrantcube.eglobes.R;
 
 public class ForgotPasswordActivity extends AppCompatActivity {
+
+    private ActionBar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         setContentView(R.layout.activity_forgot_password);
+
+        toolbar = getSupportActionBar();
+        toolbar.setTitle("Forgot password");
 
         /*Press Back*/
       /*  findViewById(R.id.imgBack).setOnClickListener(new View.OnClickListener() {
