@@ -675,7 +675,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrendCell" rowHeight="174" id="ejt-Fx-b7P" customClass="HomeTrendTVC" customModule="E_Globes" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrendCell" rowHeight="174" id="ejt-Fx-b7P" customClass="HomeTrendTVC" customModule="E_Globes" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="950" width="375" height="174"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ejt-Fx-b7P" id="Dfn-pw-wXX">
@@ -698,18 +698,18 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iCl-Jn-uTG">
-                                                    <rect key="frame" x="0.0" y="122.5" width="375" height="51"/>
+                                                    <rect key="frame" x="0.0" y="122.5" width="70" height="51"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="nqF-re-35u">
-                                                            <rect key="frame" x="1" y="1" width="373" height="48"/>
+                                                            <rect key="frame" x="1" y="1" width="68" height="48"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYP-zq-0V8">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="185.5" height="48"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="33" height="48"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <state key="normal" title="Chat"/>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pT-cW-rGc">
-                                                                    <rect key="frame" x="187.5" y="0.0" width="185.5" height="48"/>
+                                                                    <rect key="frame" x="35" y="0.0" width="33" height="48"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <state key="normal" title="Call"/>
                                                                 </button>
@@ -1120,6 +1120,9 @@
                                         <state key="normal" title="SIGN IN WITH GOOGLE">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="googleSignINAction:" destination="9uR-KC-oJ8" eventType="touchUpInside" id="kUi-yz-9Ov"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJb-gR-PEE">
                                         <rect key="frame" x="0.0" y="116" width="281" height="48"/>
@@ -1155,15 +1158,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3X-jf-aA3" customClass="GIDSignInButton">
+                                <rect key="frame" x="87" y="56" width="240" height="54"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="NYz-9I-IJe"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="S3X-jf-aA3" firstAttribute="leading" secondItem="UUx-Fa-F0L" secondAttribute="leading" constant="87" id="5PQ-YJ-gb0"/>
                             <constraint firstItem="qeI-yf-oiV" firstAttribute="leading" secondItem="UUx-Fa-F0L" secondAttribute="leading" constant="67" id="67s-Kr-6U2"/>
                             <constraint firstItem="Heo-UD-q1r" firstAttribute="centerY" secondItem="6CX-wz-ec1" secondAttribute="centerY" id="7Cl-0e-dIR"/>
                             <constraint firstItem="qeI-yf-oiV" firstAttribute="top" secondItem="Heo-UD-q1r" secondAttribute="bottom" constant="29" id="7lL-VD-pTg"/>
+                            <constraint firstItem="UUx-Fa-F0L" firstAttribute="trailing" secondItem="S3X-jf-aA3" secondAttribute="trailing" constant="87" id="9KU-wP-A3M"/>
                             <constraint firstItem="UUx-Fa-F0L" firstAttribute="trailing" secondItem="2Mz-Dd-TeT" secondAttribute="trailing" constant="25" id="Clm-gR-gt3"/>
                             <constraint firstItem="UUx-Fa-F0L" firstAttribute="bottom" secondItem="6h2-aw-mSU" secondAttribute="bottom" id="HB0-as-i2U"/>
                             <constraint firstItem="bRI-WU-WYK" firstAttribute="top" secondItem="UUx-Fa-F0L" secondAttribute="top" constant="74" id="J1i-J0-Zvz"/>
+                            <constraint firstItem="S3X-jf-aA3" firstAttribute="top" secondItem="UUx-Fa-F0L" secondAttribute="top" constant="12" id="KNB-Yt-SRT"/>
                             <constraint firstItem="UUx-Fa-F0L" firstAttribute="trailing" secondItem="bRI-WU-WYK" secondAttribute="trailing" constant="87" id="NJa-9b-CHo"/>
                             <constraint firstItem="Heo-UD-q1r" firstAttribute="centerX" secondItem="6CX-wz-ec1" secondAttribute="centerX" id="WQo-1k-9Ce"/>
                             <constraint firstItem="UUx-Fa-F0L" firstAttribute="trailing" secondItem="6h2-aw-mSU" secondAttribute="trailing" id="Wsv-Xm-Hh4"/>
@@ -1183,8 +1196,9 @@
                     </tabBarItem>
                     <connections>
                         <outlet property="fbBtn" destination="dJb-gR-PEE" id="1iY-cu-pGP"/>
-                        <outlet property="googleBtn" destination="Ojb-Gu-UgR" id="EZk-3d-lDP"/>
+                        <outlet property="googleBtn" destination="Ojb-Gu-UgR" id="MXA-xl-dpE"/>
                         <outlet property="signInBtn" destination="DVL-I1-trN" id="HJP-FG-xc2"/>
+                        <outlet property="signInButton" destination="S3X-jf-aA3" id="ju2-WX-iFb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DQl-6i-ADH" userLabel="First Responder" sceneMemberID="firstResponder"/>

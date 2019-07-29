@@ -7,10 +7,15 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
-class ProfileViewController: UIViewController {
+class ProfileViewController: UIViewController, GIDSignInUIDelegate {
+    
+    
 
     @IBOutlet weak var googleBtn: UIButton!
+   @IBOutlet weak var signInButton: GIDSignInButton!
     
     @IBOutlet weak var fbBtn: UIButton!
     
@@ -18,11 +23,12 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        googleBtn.layer.cornerRadius = 4.0
-        googleBtn.layer.shadowColor = UIColor.gray.cgColor
-        googleBtn.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        googleBtn.layer.shadowRadius = 12.0
-        googleBtn.layer.shadowOpacity = 0.7
+      GIDSignIn.sharedInstance().uiDelegate = self
+        signInButton.layer.cornerRadius = 4.0
+        signInButton.layer.shadowColor = UIColor.gray.cgColor
+        signInButton.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        signInButton.layer.shadowRadius = 12.0
+        signInButton.layer.shadowOpacity = 0.7
         
         fbBtn.layer.cornerRadius = 4.0
         fbBtn.layer.shadowColor = UIColor.gray.cgColor
@@ -40,6 +46,8 @@ class ProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    
 
     @IBAction func SignInAction() {
 //        let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -55,6 +63,18 @@ class ProfileViewController: UIViewController {
         
         
         
+    }
+    
+    
+    @IBAction func googleSignINAction(_ sender: Any) {
+
+        GIDSignIn.sharedInstance().uiDelegate = self
+        
+    }
+    
+    private func signIn(signIn: GIDSignIn!,
+                presentViewController viewController: UIViewController!) {
+        self.present(viewController, animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation

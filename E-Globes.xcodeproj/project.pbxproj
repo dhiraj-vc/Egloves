@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C21F53F807840F5937233B0 /* Pods_E_Globes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615F8E546786A086053F3838 /* Pods_E_Globes.framework */; };
+		CB0B0ADF22EF21E200DED12D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB0B0ADE22EF21E200DED12D /* GoogleService-Info.plist */; };
 		CB1D87D522EB4A7F00280E1D /* CollectionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1D87D422EB4A7F00280E1D /* CollectionDetailVC.swift */; };
 		CB24565222E5F23E001E5235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24565122E5F23E001E5235 /* AppDelegate.swift */; };
 		CB24565722E5F23E001E5235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB24565522E5F23E001E5235 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		1B5A55F8AC43BC049CE786E4 /* Pods-E-Globes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Globes.debug.xcconfig"; path = "Target Support Files/Pods-E-Globes/Pods-E-Globes.debug.xcconfig"; sourceTree = "<group>"; };
 		615F8E546786A086053F3838 /* Pods_E_Globes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_Globes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B6534287B238F38EE2637 /* Pods-E-Globes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Globes.release.xcconfig"; path = "Target Support Files/Pods-E-Globes/Pods-E-Globes.release.xcconfig"; sourceTree = "<group>"; };
+		CB0B0ADE22EF21E200DED12D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CB1D87D422EB4A7F00280E1D /* CollectionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailVC.swift; sourceTree = "<group>"; };
 		CB24564E22E5F23E001E5235 /* E-Globes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Globes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB24565122E5F23E001E5235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				CB2456A122E9FAC2001E5235 /* Icons */,
 				CB24565822E5F240001E5235 /* Assets.xcassets */,
 				CB24565A22E5F241001E5235 /* LaunchScreen.storyboard */,
+				CB0B0ADE22EF21E200DED12D /* GoogleService-Info.plist */,
 				CB24565D22E5F241001E5235 /* Info.plist */,
 			);
 			path = "E-Globes";
@@ -205,6 +208,7 @@
 				CB24564B22E5F23E001E5235 /* Frameworks */,
 				CB24564C22E5F23E001E5235 /* Resources */,
 				6158D789CD878B7E2E52643A /* [CP] Embed Pods Frameworks */,
+				EEAF6EF26F20A30110D247F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +276,7 @@
 				CB2456C222E9FAC3001E5235 /* mansion.png in Resources */,
 				CB2456CD22E9FAC3001E5235 /* eglobe.png in Resources */,
 				CB2456BF22E9FAC3001E5235 /* splash.jpg in Resources */,
+				CB0B0ADF22EF21E200DED12D /* GoogleService-Info.plist in Resources */,
 				CB24565922E5F240001E5235 /* Assets.xcassets in Resources */,
 				CB2456C122E9FAC3001E5235 /* apple.png in Resources */,
 				CB24565722E5F23E001E5235 /* Main.storyboard in Resources */,
@@ -318,6 +323,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEAF6EF26F20A30110D247F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Globes/Pods-E-Globes-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Globes/Pods-E-Globes-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-Globes/Pods-E-Globes-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -490,7 +512,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "vibrantcube.E-Globes";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrantcube.E-Globes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,7 +531,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "vibrantcube.E-Globes";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrantcube.E-Globes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
