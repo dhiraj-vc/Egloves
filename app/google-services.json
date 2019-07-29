@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1090920763812",
+    "firebase_url": "https://e-globes-6f2c0.firebaseio.com",
+    "project_id": "e-globes-6f2c0",
+    "storage_bucket": "e-globes-6f2c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090920763812:android:c7b2e087149551a1",
+        "android_client_info": {
+          "package_name": "com.vibrantcube.eglobes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090920763812-9c2h5nlo2ci8ej2umsprjp070f0h1brp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibrantcube.eglobes",
+            "certificate_hash": "813808afac56867e69e637f55361037f272ada0a"
+          }
+        },
+        {
+          "client_id": "1090920763812-3ejksa4oaj4iho73uhldegfa49157gpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmBIP3Lsf86Dd3ARPYE8YptF7ew9WQh9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090920763812-3ejksa4oaj4iho73uhldegfa49157gpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

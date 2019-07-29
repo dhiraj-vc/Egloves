@@ -22,7 +22,7 @@
             android:layout_margin="50dp"/>
 
         <com.google.android.gms.common.SignInButton
-            android:id="@+id/sign_in_button"
+            android:id="@+id/signInBtnFirebase"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="40dp"
@@ -73,6 +73,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/signin"
             android:clickable="true"
             android:text="Sign in email or phone"
             android:textColor="#5C5959"

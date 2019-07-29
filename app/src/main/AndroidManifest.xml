@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:appComponentFactory">
-        <activity android:name=".home.TrendActivity"></activity>
+        <activity android:name=".profile.firebase.FirebaseProfileActivity"></activity>
+        <activity android:name=".profile.firebase.FirebaseSignInActivity" />
+        <activity android:name=".profile.firebase.FirebaseSignUpActivity" />
+        <activity android:name=".home.TrendActivity" />
         <activity android:name=".profile.SignUp" />
         <activity android:name=".profile.ForgotPasswordActivity" />
         <activity
